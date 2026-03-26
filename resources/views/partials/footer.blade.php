@@ -54,7 +54,7 @@
     </section>
 
     {{-- barra bassa --}}
-    <section class="bg-secondary py-4">
+    <section class="bg-dark py-4">
         <div class="container">
             <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-4">
 
@@ -64,12 +64,11 @@
 
                 <div class="d-flex align-items-center gap-3">
                     <span class="text-primary text-uppercase fw-bold">Follow us</span>
-@foreach ($socialLinks as $social)
-<a href="#">
-    <img src="{{ Vite::asset('resources/img/' . $social['icon']) }}" alt="{{ $social["label"] }}" class="img-fluid">
-</a>         
-    
-@endforeach
+ @foreach ($socialLinks as $social)
+        <a href="{{ $social['url'] }}">
+            <img src="{{ Vite::asset('resources/img/' . $social['icon']) }}" alt="{{ $social['label'] }}" class="img-fluid">
+        </a>
+    @endforeach
                 </div>
 
             </div>

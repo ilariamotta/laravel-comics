@@ -1,5 +1,5 @@
 <?php
-
+return
 $socialLinks = [
     ['icon' => 'footer-facebook.png', 'url' => '#', 'label' => 'Facebook'],
     ['icon' => 'footer-twitter.png', 'url' => '#', 'label' => 'Twitter'],

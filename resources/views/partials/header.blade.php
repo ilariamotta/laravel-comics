@@ -14,7 +14,7 @@
             <nav class="header-nav">
                  <ul class="d-flex list-unstyled mb-0 gap-4 text-uppercase fw-bold text-decoration-none">
                      @foreach ($navLinks as $link)
-                         <li><a href="{{ route($link['route']) }}">{{ $link['label'] }}</a></li>
+                         <li><a href="{{ route($link['route']) }}" class="text-decoration-none">{{ $link['label'] }}</a></li>
                      @endforeach
                  </ul>
             </nav>
