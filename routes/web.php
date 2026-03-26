@@ -25,7 +25,7 @@ Route::get("games", function(){
 
 Route::get("collectibles", function(){
     return view("collectibles");
-})name->("collectibles");
+})->name("collectibles");
 
 Route::get("videos", function(){
     return view("videos");
