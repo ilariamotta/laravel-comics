@@ -1,5 +1,0 @@
-<nav><ul>
-    <li>Ciao</li>
-    <li>Ciao</li>
-    <li>Ciao</li>
-</ul></nav>
