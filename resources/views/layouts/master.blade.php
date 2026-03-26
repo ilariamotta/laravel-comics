@@ -8,7 +8,7 @@
 </head>
 <body>
     @include("partials.header")
-    <h1>Hello Comics!</h1>
+    @yield('hero')
     @include("partials.footer")
     
     
