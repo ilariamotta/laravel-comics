@@ -11,6 +11,7 @@
     @yield('hero')
     @yield('content')
     @yield('news')
+    @yield('aboutus')
     @include("partials.footer")
     
     
