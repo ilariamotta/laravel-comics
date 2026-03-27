@@ -11,6 +11,8 @@ return $navLinks = [
     ['label' => 'Fans', 'route' => 'fans'],
     ['label' => 'News', 'route' => 'news'],
     ['label' => 'Shop', 'route' => 'shop'],
+    ['label' => 'About Us', 'route' => 'aboutus']
+    
 ];
 
 

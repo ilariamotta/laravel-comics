@@ -10,6 +10,7 @@
     @include("partials.header")
     @yield('hero')
     @yield('content')
+    @yield('news')
     @include("partials.footer")
     
     
