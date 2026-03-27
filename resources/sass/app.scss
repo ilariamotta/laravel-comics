@@ -6,3 +6,30 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+
+$primary-color: #1807fa;
+$dark-bg: #fff7d4;
+$light-text: #f8f9fa;
+
+body {
+    background-color: $dark-bg;
+}
+
+.section-title {
+    color: $primary-color;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.news-card {
+    background-color: #00000038;
+
+    h5 {
+        color: $light-text;
+    }
+
+    p {
+        color: #adb5bd7e;
+    }
+}
